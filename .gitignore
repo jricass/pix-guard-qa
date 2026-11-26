@@ -1,0 +1,17 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+TestResults/
+
+# Node / React Native (app)
+node_modules/
+.expo/
+app/android/
+app/ios/
+
+# Relatórios e evidências temporárias
+reports/
+evidencias/
+*.log
