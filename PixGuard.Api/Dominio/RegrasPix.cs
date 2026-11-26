@@ -2,6 +2,8 @@ namespace PixGuard.Api.Dominio;
 
 /// <summary>
 /// Parâmetros das regras de negócio. Centralizados para facilitar manutenção e testes.
+/// 
+/// 20h, 6h, 1000, 2 minutos pix duplicado, 18 anos
 /// </summary>
 public static class RegrasPix
 {

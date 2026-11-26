@@ -14,6 +14,7 @@ public record Resultado(int Status, object Corpo)
         new(status, new { codigo, mensagem });
 }
 
+// Valida conta: nome, cpf, idade, senah, etc. E Login, devolve token
 public class ContaService(BancoEmMemoria banco, IRelogio relogio)
 {
     // RN-01 — Abertura de conta
